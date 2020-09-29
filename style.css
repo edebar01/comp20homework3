@@ -1,0 +1,30 @@
+
+html {font-family: "Book Antiqua", Palatino, serif; background-color: rgba(168, 82, 50, 0.2);}
+h1 {text-align: center; font-size: 300%; margin-bottom: 0px; box-sizing: border-box; padding: 3px;}
+h3 {text-align: center; font-size: 200%; margin-top: 2px; color: #a85232;}
+h4 {font-size: 120%; font-weight: 50; margin-left: 20px; margin-right: 20px;}
+.nav {display: flex; align-items: center; margin-left: auto; margin-right: auto;
+	  width: 35em; padding-bottom: 9px;}
+
+.nav li {display: inline-block; font-size: 180%; padding: 5px 20px 5px 20px; box-sizing: border-box; border: 1px solid rgba(168, 82, 50, 0); color: #000; text-align: center}
+
+.nav li:hover {border: 1px solid #333; color: #fff; background-color: #a85232}
+
+.nav li a {text-decoration: none; color: inherit}
+
+.welcome {display: flex; align-items: center; margin-left: auto; margin-right: auto; width: 23em; box-sizing: border-box;}
+.welcome h2 {font-size: 180%; font-weight: 50;}
+
+footer {font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-weight: 400; color: #a85232; text-align: center;}
+.center-button {display: flex; align-items: center; margin-left: auto; margin-right: auto; width: 7em; box-sizing: border-box;}
+.button {
+	  background-color: #ccb9b1;
+	  border: 2px solid #c9afa3;
+	  color: white;
+	  padding: 15px 25px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	}
+.button a {text-decoration: none; color: inherit}
